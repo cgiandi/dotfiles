@@ -1,4 +1,4 @@
-# CG imagin + invint dotfiles
+# CG imagine + invent dotfiles
 
 These are the starter dotfiles used by cgiandi employees.
 
@@ -37,7 +37,7 @@ brew install node@6 yarn
 
 ### Installing
 
-To use the eslint configrations you need to add the following to your project package.json
+To use the eslint configurations you need to add the following to your project package.json
 
 ```
 yarn add eslint 
