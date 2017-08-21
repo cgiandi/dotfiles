@@ -1,5 +1,4 @@
 {
-  "parser": "babel-eslint",
   "extends": "airbnb",
   "rules": {
     "react/jsx-filename-extension": [
@@ -14,11 +13,24 @@
       "off",
       "always"
     ],
-    "no-underscore-dangle": [
+    "react/forbid-prop-types": [
       "off",
       "always"
     ],
-    "no-console": "off",
-    "no-alert": "off"
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "no-underscore-dangle": [
+      "off",
+      "always"
+    ]
+  },
+  "globals": {
+    "fetch": false
   }
 }

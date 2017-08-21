@@ -41,7 +41,6 @@ To use the eslint configurations you need to add the following to your project p
 
 ```
 yarn add eslint 
-        \babel-eslint 
         \eslint-config-airbnb 
         \eslint-plugin-import 
         \eslint-plugin-jsx-a11y 
